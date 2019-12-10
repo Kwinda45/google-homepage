@@ -1,0 +1,127 @@
+html,
+
+body {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+}
+
+li a {
+    float:right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+i {
+    float:right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: auto;
+    margin-top: 12%;
+}
+
+.search input[type=text]{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border: 2px ridge ;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 1%;
+    background-image: url('http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-attachment: auto;
+    background-size: auto;
+    background-position: right;
+    background-size: 5%;
+    
+}
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search { 
+  position: absolute;
+  top: 15px;
+  left: 420px;
+  font-size: 15px;
+  size: 5%;
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('fa fa-search');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+
+form {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding: auto;
+    margin-top: 100%;
+    text-align: center;
+
+}
+
+.menu {
+    display: block;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.navbar {
+    background-color:white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: white;
+    color: gray;
+  }
